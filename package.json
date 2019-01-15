@@ -1,0 +1,20 @@
+{
+  "name": "querryserver",
+  "version": "1.0.0",
+  "description": "GraphQL + Express + mongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Pushpendra Singh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^14.0.2",
+    "mongoose": "^5.2.17"
+  },
+  "devDependencies": {}
+}
